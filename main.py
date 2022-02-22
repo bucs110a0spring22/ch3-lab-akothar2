@@ -18,9 +18,33 @@ michelangelo.goto(-100,20)
 leonardo.goto(-100,-20)
 
 ## 5. your code goes here
+michelangelo.goto(-50,20)
+leonardo.goto(-50,-20)
 
+michelangelo.forward(50)
+leonardo.forward(50)
+
+michelangelo.bk(100)
+leonardo.bk(100)
+
+michelangelo.fd(random.randrange(1,100))
+leonardo.fd(random.randrange(1,100))
+
+michelangelo.goto(-100,20)
+leonardo.goto(-100,-20)
+
+for i in range (1,20):
+  michelangelo.fd(random.randrange(1,10))
+  leonardo.fd(random.randrange(1,10))
+
+michelangelo.goto(-100,20)
+leonardo.goto(-100,-20)
 
 # Part B - complete part B here
+michelangelo.down()
+leonardo.down()
+
+
 
 
 window.exitonclick()
