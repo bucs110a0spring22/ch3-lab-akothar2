@@ -52,7 +52,7 @@ def shape(length = "", sides = ""):
     michelangelo.fd(length)
     michelangelo.left(interior_angle)
   michelangelo.clear()
-
+  
 shape(50,3)
 shape(50,4)
 shape(50,6)
