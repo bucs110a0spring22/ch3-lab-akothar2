@@ -33,7 +33,7 @@ leonardo.fd(random.randrange(1,100))
 michelangelo.goto(-100,20)
 leonardo.goto(-100,-20)
 
-for i in range (1,20):
+for i in range (1,10):
   michelangelo.fd(random.randrange(1,10))
   leonardo.fd(random.randrange(1,10))
 
@@ -44,7 +44,19 @@ leonardo.goto(-100,-20)
 michelangelo.down()
 leonardo.down()
 
+length = int(input("Side Length:"))
+sides = int(input("Number of Sides:"))
+interior_angle = (sides-2 * 180)/sides 
 
+def equilateraltriangle(length):
+  
+  for i in range(1, sides - 1):
+    michelangelo.fd(length)
+    michelangelo.left(interior_angle)
+    michelangelo.fd(length)
+    
+
+equilateraltriangle(length)
 
 
 window.exitonclick()
