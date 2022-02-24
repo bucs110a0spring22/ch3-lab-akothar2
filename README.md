@@ -8,18 +8,18 @@
 _Replace anything surrounded by the `< >` symbols._
 
 ## SUMMARY:
- < Provide a short description of your program's functionality. No more than a couple sentences. >
+ In race 1 and 2, I use the randrange and forward functions to move each turtle forward at a random length. For part B, I defined a function that takes in the desired side length and number of sides. Using the number of sides it calculates the interior angle length and draw the desired shape using the orange turtle. It clears the shape after each call as well. 
 
 ## GRACE DAYS
-Grace days used for this assignment: < # >
+Grace days used for this assignment: 2
 
-Grace days remaining: < # >/5
+Grace days remaining: 3/5
 
 ## KNOWN BUGS AND INCOMPLETE PARTS:
- < What parts of the project you were not able to complete >
-
+ none
+ 
 ## REFERENCES:
- < List any outside resources used >
+ none
 
 ## MISCELLANEOUS COMMENTS:
- < Anything you would like the grader to know >
+ none
