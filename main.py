@@ -14,6 +14,8 @@ leonardo.shape('turtle')
 
 michelangelo.up()          # 4.  Pick up the pen so we don’t get lines
 leonardo.up()
+michelangelo.speed(1)
+leonardo.speed(1)
 michelangelo.goto(-100,20)
 leonardo.goto(-100,-20)
 
